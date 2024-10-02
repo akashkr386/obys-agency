@@ -9,6 +9,17 @@ html,body{
     height: 100%;
     width: 100%;
 }
+/* for cursor */
+#crsr{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 1px solid #ffffff93;
+    position: fixed;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+}
 /* for loader */
 #loader{
     height: 100%;
@@ -96,4 +107,53 @@ html,body{
     height: 100vh;
     width: 100%;
     background-color: #151515;
+}
+/* nav bar style */
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5vw 8.5vw;
+} 
+/* nav bar part 2 */
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3vw;
+}
+#nav-part2{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.hero{
+    width: 72%;
+    margin-left: 27%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+.hero:nth-child(2){
+    margin-top: 11.5vh;
+
+}
+.hero h1{
+    font-size: 7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7.2vw;
+}
+.hero h2{
+    font-size: 7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7.2vw;
+}
+.hero h2:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    font-weight: 500;
 }
