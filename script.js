@@ -54,7 +54,7 @@ function loadingAnimation(){
                     h5Timer.innerHTML = count;
                 }
                 
-            }, 33);
+            }, 27);
         },
     });
     t1.to(".line h2",{
@@ -64,7 +64,7 @@ function loadingAnimation(){
     t1.to("#loader",{
         opacity: 0,
         duration: 0.4,
-        delay: 4,
+        delay: 2.6,
     });
     t1.from("#page1",{
         delay: 0.2,
