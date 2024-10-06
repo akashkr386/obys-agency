@@ -796,6 +796,13 @@ height: 30%;
 /* making resonsive  */
 
 @media (max-width:600px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
     #page1{
         height: 60vh;
         width: 100%;
@@ -1339,7 +1346,7 @@ height: 30%;
 }
 /* footer responsiveness start  */
 #footer{
-    height: 110vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     margin-top: 10vw;
