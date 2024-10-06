@@ -802,6 +802,7 @@ height: 30%;
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
+        background-color: #151515;
     }
     #page1{
         height: 60vh;
